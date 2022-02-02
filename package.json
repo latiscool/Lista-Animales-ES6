@@ -1,0 +1,30 @@
+{
+  "name": "lista_de_animales Luis Torres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latiscool/Lista-Animasles-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latiscool/Lista-Animasles-ES6/issues"
+  },
+  "homepage": "https://github.com/latiscool/Lista-Animasles-ES6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0"
+  }
+}

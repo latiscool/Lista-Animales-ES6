@@ -21,7 +21,6 @@ class Animal extends Propietario {
     return this._tipo;
   }
 }
-
 class Mascota extends Animal {
   constructor(nombre, direccion, telefono, tipo, nombreMascota, enfermedad) {
     super(nombre, direccion, telefono, tipo);
@@ -102,3 +101,9 @@ formulario.addEventListener('submit', (event) => {
     'resultado'
   ).innerHTML = `<li>${seleccion.datosPropietario()}</li> <li>${mascotaAgregada}</li>`;
 });
+
+let btnLimpiar = document.getElementById('limpiar');
+
+function Limpiar() {
+  return (document.querySelectorAll('input').value = '');
+}
