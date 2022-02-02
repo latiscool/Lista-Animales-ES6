@@ -102,8 +102,7 @@ formulario.addEventListener('submit', (event) => {
   ).innerHTML = `<li>${seleccion.datosPropietario()}</li> <li>${mascotaAgregada}</li>`;
 });
 
-let btnLimpiar = document.getElementById('limpiar');
-
-function Limpiar() {
-  return (document.querySelectorAll('input').value = '');
-}
+let Limpiar = () => {
+  formulario.reset();
+  document.getElementById('resultado').innerHTML = '';
+};
